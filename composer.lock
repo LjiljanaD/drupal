@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1e073da140b0d12e42a8712b70dca0dd",
+    "content-hash": "2492f80d7edb7f3a57123bfc3da96ac9",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4727,6 +4727,51 @@
             "time": "2017-03-18T10:28:49+00:00"
         },
         {
+            "name": "drupal/twig_debug",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/twig_debug",
+                "reference": "629c87c6baf4b10688977aa66f563d7e7e564eca"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.x-dev",
+                    "datestamp": "1401995927",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "mikl",
+                    "homepage": "https://www.drupal.org/user/58679"
+                },
+                {
+                    "name": "rupl",
+                    "homepage": "https://www.drupal.org/user/411999"
+                }
+            ],
+            "description": "Provides help for debugging Twig templates.",
+            "homepage": "https://www.drupal.org/project/twig_debug",
+            "support": {
+                "source": "http://cgit.drupalcode.org/twig_debug"
+            }
+        },
+        {
             "name": "fabpot/goutte",
             "version": "v3.2.3",
             "source": {
@@ -6219,6 +6264,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "drupal/twig_debug": 20,
         "behat/mink": 20,
         "behat/mink-selenium2-driver": 20
     },
