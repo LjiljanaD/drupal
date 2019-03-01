@@ -10,11 +10,8 @@
             "type": "php",
             "request": "launch",
             "port": 9000,
-            // server -> local
-            "pathMappings": {
-            "/home/user/drupal-8.6.10": "${/home/user}/drupal-8.6.10",
-           
-  }
+            "pathMappings": { "/home/user/drupal-8.6.10": "${workspaceRoot}" }, 
+            
         },
         {
             "name": "Launch currently open script",

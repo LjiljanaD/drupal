@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcb7aa82-fa3c-420a-be16-4552eebc8bab" name="Default Changelist" comment="" />
+    <list default="true" id="dcb7aa82-fa3c-420a-be16-4552eebc8bab" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,12 +157,12 @@
       <option name="presentableId" value="Default" />
       <updated>1551352006302</updated>
       <workItem from="1551352007398" duration="2286000" />
-      <workItem from="1551354753117" duration="582000" />
+      <workItem from="1551354753117" duration="1277000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2868000" />
+    <option name="totallyTimeSpent" value="3563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-1" width="1920" height="1054" extended-state="6" />
@@ -171,7 +173,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49893278" visible="true" weight="0.39892474" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49893278" weight="0.39892474" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
