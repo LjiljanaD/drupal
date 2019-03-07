@@ -6,7 +6,11 @@
     "require": {
         "composer/installers": "^1.0.24",
         "wikimedia/composer-merge-plugin": "^1.4",
-        "drush/drush": "^9.5"
+        "drush/drush": "^9.5",
+        "drupal/twig_xdebug": "^1.0",
+        "drupal/imagemagick": "~2.0",
+        "drupal/devel": "^2.0",
+        "drupal/kint": "^2.0"
     },
     "replace": {
         "drupal/core": "^8.6"

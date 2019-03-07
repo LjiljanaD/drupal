@@ -1,0 +1,4 @@
+name: Hello World
+description: First Drupal custom module
+type: module
+core: 8.x

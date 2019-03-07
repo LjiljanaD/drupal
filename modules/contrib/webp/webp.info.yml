@@ -1,0 +1,13 @@
+name: WebP
+type: module
+description: Generates WebP copies of image style derivatives.
+# core: 8.x
+package: Other
+dependencies:
+  - drupal:image
+
+# Information added by Drupal.org packaging script on 2017-09-22
+version: '8.x-1.0-beta1'
+core: '8.x'
+project: 'webp'
+datestamp: 1506088450

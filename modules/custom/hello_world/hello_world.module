@@ -1,0 +1,10 @@
+<?php
+function hello_world_theme($existing, $type, $theme, $path){
+  return array(
+    'my_test_theme_2' => [
+      'variables' => ['countries' => []]
+    ]
+
+
+  );
+}

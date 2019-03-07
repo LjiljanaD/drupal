@@ -1,0 +1,7 @@
+hello_world2:
+  path: '/ljilja/hello2'
+  defaults:
+    _controller: 'Drupal\hello_world\Controller\HelloWorldController::hello2'
+    _title: 'Hello World'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,22 @@
+ <h2> {{ title }}</h2>
+ <div> <form method="post">
+    <input type="text" name="filter">
+         <button type="submit"> Filter </button> </form>
+
+     
+ </div>
+  <div>
+
+
+         {% for movie in movies  %}
+             <h3>{{  movie.title  }}   </h3>
+           Brief description:   {{  movie.description | raw}} <br>
+             Main actor:  {{   movie.actors |raw}} <br>
+             Director: {{  movie.directors|raw }} <br>
+             <img src=" {{ file_url(movie.poster)  }} " > <br>
+         {% endfor %}
+
+
+  </div>
+
+

@@ -1,0 +1,4 @@
+name: Movies page
+description: Module for adding new movies
+type: module
+core: 8.x
