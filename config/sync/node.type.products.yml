@@ -1,0 +1,17 @@
+uuid: d2192f86-f49f-4ac2-9dbe-f802ac7f1f97
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Products
+type: products
+description: 'Add new products'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

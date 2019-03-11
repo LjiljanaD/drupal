@@ -1,0 +1,19 @@
+uuid: b389a5f9-e3d6-4eb6-9980-23cd4033c3a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_actors
+    - node.type.movies
+id: node.movies.field_actors
+field_name: field_actors
+entity_type: node
+bundle: movies
+label: Actors
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,33 @@
+uuid: 54da3d73-5d48-4c27-b16e-c2efe83a8a01
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2f068810-2010-41d1-963e-9916039e12f9'
+  module:
+    - block_content
+    - node
+  theme:
+    - bartik
+id: description
+theme: bartik
+region: content
+weight: -6
+provider: null
+plugin: 'block_content:2f068810-2010-41d1-963e-9916039e12f9'
+settings:
+  id: 'block_content:2f068810-2010-41d1-963e-9916039e12f9'
+  label: Description
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      movies: movies
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

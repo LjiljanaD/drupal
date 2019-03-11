@@ -1,9 +1,9 @@
  <h2> {{ title }}</h2>
  <div> <form method="post">
-    <input type="text" name="filter">
-         <button type="submit"> Filter </button> </form>
+    <input type="search" name="filter">
+         <button name="submit"> Filter </button> </form>
 
-     
+
  </div>
   <div>
 
@@ -15,6 +15,14 @@
              Director: {{  movie.directors|raw }} <br>
              <img src=" {{ file_url(movie.poster)  }} " > <br>
          {% endfor %}
+
+
+  </div>
+  <div>
+
+      {% if (form.filter.get('value') == (movie.title)) %}
+      <h3> {{ movie.title }}</h3>
+      {% endif %}
 
 
   </div>
