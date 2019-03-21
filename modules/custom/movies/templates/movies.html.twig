@@ -1,12 +1,14 @@
  <h2> {{ title }}</h2>
  <div> <form method="post">
-    <input type="search" name="filter">
-         <button name="submit"> Filter </button> </form>
+    <input type = "search" name = "filter">
+         <button name = "submit"> Filter </button> </form>
  </div>
 
  <div>
-    <select name="Type of movies">
-        <option> {{ filters }}</option>
+    <select name = "Type of movies">
+        <option value = "Type of movies">Type of movie</option>
+        <option value = "Type of movies">{{ term_datas.name }}</option>
+        <option></option>
     </select>
  </div>
   <div>
@@ -18,7 +20,7 @@
              Main actor:  {{   movie.actors |raw}} <br>
              Director: {{  movie.directors |raw }} <br>
              Type of movie:  {{  movie.movietype }} <br>
-             <img src=" {{ file_url(movie.poster)  }} " > <br>
+             <img src = " {{ file_url(movie.poster)  }} " > <br>
          {% endfor %}
 
 
@@ -34,7 +36,7 @@
 
  <div>
      {% for i in 0..pager.total - 1 %}
-         <a href="{{ path('<current>') ~ '?page=' ~ i }}">  < {{ i }} >  </a>
+         <a href = "{{ path('<current>') ~ '?page=' ~ i }}">  < {{ i }} >  </a>
      {% endfor %}
 
  </div>
