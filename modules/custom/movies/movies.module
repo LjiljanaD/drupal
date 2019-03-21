@@ -2,7 +2,18 @@
 function movies_theme($existing, $type, $theme, $path){
   return array(
     'movies' => [
-      'variables' => ['movies' => []]
+      'variables' => [
+        'movies' => [],
+        'pager' => []
+      ]
     ]);
 
 }
+
+function movies_preprocess_form(&$vars){
+  $vars['ConfigForm'] = \Drupal::formBuilder()->getForm('\Drupal\movies\Form\ConfigForm');
+}
+
+
+
+

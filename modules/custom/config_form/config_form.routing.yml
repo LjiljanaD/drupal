@@ -1,0 +1,7 @@
+config_form:
+  path: 'config-form'
+  defaults:
+    _form: '\Drupal\config_form\Form\SimpeForm'
+    _title: 'Config custom form'
+  requiremets:
+    _permission: 'access content'
