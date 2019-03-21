@@ -1,15 +1,21 @@
  <h2> {{ title }}</h2>
  <div> <form method="post">
     <input type = "search" name = "filter">
-         <button name = "submit"> Filter </button> </form>
+         <button name = "submit"> {{ 'Filter' | t }} </button> </form>
  </div>
 
- <div>
-    <select name = "Type of movies">
-        <option value = "Type of movies">Type of movie</option>
-        <option value = "Type of movies">{{ term_datas.name }}</option>
-        <option></option>
-    </select>
+ <div> <h4> Select the type of movie: </h4>
+    <ul>
+        {% for filter in filters %}
+            <li><a href="{{ filter.link }}">{{ filter.name }}</a></li>
+            {% endfor %}
+    </ul>
+     {#<select>#}
+         {#<option>Select one</option>#}
+         {#{% for filter in filters %}#}
+         {#<option value="{{ filter.name }}"><a href="{{ filter.link }}">{{ filter.name }}</a>#}
+        {#{% endfor %}#}
+    {#</select>#}
  </div>
   <div>
 

@@ -111,32 +111,26 @@ class MoviesController extends ControllerBase
       ],
       '#theme' => 'movies',
     );
-
-
   }
 
-  public function getTaxonomy(){
+  /**
+   * @return array
+   */
+  private function getTaxonomy(){
 
     $taxonomyId='type_of_movie';
 
     $terms = $this->entityTypeManager->getStorage('taxonomy_term')->loadTree($taxonomyId);
 
-    $term_datas =[];
+    $filters =[];
 
     foreach ($terms as $term) {
-      $term_datas = array(
+      $filters [] = array(
         'name' => $term->name,
-        'link' => $this->aliasManager->getAliasByPath('/taxonomy/term' . $term->tid)
+        'link' => $this->aliasManager->getAliasByPath('/taxonomy/term/' . $term->tid),
+        'id' => $taxonomyId
       );
     }
-     return array(
-       '#term_datas' => [
-         'name' => $term-> name
-       ]
-     );
-
-
-
-
+     return $filters;
   }
 }
