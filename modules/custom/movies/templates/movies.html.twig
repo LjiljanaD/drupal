@@ -1,50 +1,46 @@
- <h2> {{ title }}</h2>
- <div> <form method="post">
-    <input type = "search" name = "filter">
-         <button name = "submit"> {{ 'Filter' | t }} </button> </form>
- </div>
+<h2> {{ title }}</h2>
+{#<div>
+    <form method="post">
+        <input type="search" name="filter">
+        <button name="submit"> {{ 'Filter' | t }} </button>
+    </form>
+</div>#}
 
- <div> <h4> Select the type of movie: </h4>
+<div><h4> Select the type of movie: </h4>
     <ul>
         {% for filter in filters %}
-            <li><a href="{{ filter.link }}">{{ filter.name }}</a></li>
-            {% endfor %}
+            <li><a href="{{ path('<current>') ~ '?filter=' ~ filter.id }}">{{ filter.name }}</a></li>
+        {% endfor %}
     </ul>
-     {#<select>#}
-         {#<option>Select one</option>#}
-         {#{% for filter in filters %}#}
-         {#<option value="{{ filter.name }}"><a href="{{ filter.link }}">{{ filter.name }}</a>#}
-        {#{% endfor %}#}
-    {#</select>#}
- </div>
-  <div>
+</div>
 
 
-         {% for movie in movies  %}
-             <h3>{{  movie.title  }}   </h3>
-           Brief description:   {{  movie.description | raw}} <br>
-             Main actor:  {{   movie.actors |raw}} <br>
-             Director: {{  movie.directors |raw }} <br>
-             Type of movie:  {{  movie.movietype }} <br>
-             <img src = " {{ file_url(movie.poster)  }} " > <br>
-         {% endfor %}
+<div>
 
+    {% for movie in movies %}
+        <h3>{{ movie.title }}   </h3>
+        Brief description:   {{ movie.description | raw }} <br>
+        Main actor:  {{ movie.actors |raw }} <br>
+        Director: {{ movie.directors |raw }} <br>
+        Type of movie:  {{ movie.movietype }} <br>
+        <img src=" {{ file_url(movie.poster) }} "> <br>
+    {% endfor %}
 
-  </div>
-  <div>
+</div>
 
-      {% if (form.filter.get('value') == (movie.title)) %}
-      <h3> {{ movie.title }}</h3>
-      {% endif %}
+<div>
 
+    {% if (form.filter.get('value') == (movie.title)) %}
+        <h3> {{ movie.title }}</h3>
+    {% endif %}
 
-  </div>
+</div>
 
- <div>
-     {% for i in 0..pager.total - 1 %}
-         <a href = "{{ path('<current>') ~ '?page=' ~ i }}">  < {{ i }} >  </a>
-     {% endfor %}
+<div>
+    {% for i in 0..pager.total - 1 %}
+        <a href="{{ path('<current>') ~ '?page=' ~ i }}"> < {{ i }} > </a>
+    {% endfor %}
 
- </div>
+</div>
 
 

@@ -63,9 +63,13 @@ class MoviesController extends ControllerBase
     $current_page = $this->request->get('page');
     $offset = $content_per_page * $current_page;
 
+
+    $filterPage = $this->request->get('filter');
+
     $movieIds = $this->entityQuery
       ->get('node')
       ->condition('type', 'movies')
+      ->condition('field_movies_type',$filterPage)
       ->range($offset, $content_per_page)->execute();
 
     $total = $this->entityQuery
@@ -128,7 +132,7 @@ class MoviesController extends ControllerBase
       $filters [] = array(
         'name' => $term->name,
         'link' => $this->aliasManager->getAliasByPath('/taxonomy/term/' . $term->tid),
-        'id' => $taxonomyId
+        'id' => $term->tid
       );
     }
      return $filters;
