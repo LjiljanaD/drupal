@@ -5,7 +5,7 @@ function movies_theme($existing, $type, $theme, $path){
       'variables' => [
         'movies' => [],
         'pager' => [],
-        'filters' => []
+        'filters' => [],
       ]
     ]);
 
