@@ -57,20 +57,28 @@ class MoviesController extends ControllerBase
    * @throws \Drupal\Component\Plugin\Exception\InvalidPluginDefinitionException
    * @throws \Drupal\Component\Plugin\Exception\PluginNotFoundException
    */
-  public function movies()
-  {
-    $content_per_page = $this->moviesConfig->get('movies.content_per_page');
+  public function movies()  {
+     $content_per_page = $this->moviesConfig->get('movies.content_per_page');
+
+    $filterPage = $this->request->get('filter');
     $current_page = $this->request->get('page');
     $offset = $content_per_page * $current_page;
 
 
-    $filterPage = $this->request->get('filter');
 
     $movieIds = $this->entityQuery
       ->get('node')
       ->condition('type', 'movies')
-      ->condition('field_movies_type',$filterPage)
-      ->range($offset, $content_per_page)->execute();
+      ->range($offset, $content_per_page)
+      ->execute();
+
+    if($filterPage) {
+      $movieIds=$this->entityQuery
+        ->get('node')
+        ->condition('type', 'movies')
+        ->condition('field_movies_type', $filterPage)
+        ->execute();
+    }
 
     $total = $this->entityQuery
       ->get('node')
@@ -111,22 +119,25 @@ class MoviesController extends ControllerBase
         'previous' => 0,
         'total' => $total / $content_per_page,
         'first' => 0,
-        'last' => 10
+        'last' => 10,
+        'currentFilter' => !empty($filterPage) ? $filterPage : NULL,
       ],
       '#theme' => 'movies',
     );
   }
 
+
   /**
    * @return array
    */
-  private function getTaxonomy(){
+  private function getTaxonomy()
+  {
 
-    $taxonomyId='type_of_movie';
+    $taxonomyId = 'type_of_movie';
 
     $terms = $this->entityTypeManager->getStorage('taxonomy_term')->loadTree($taxonomyId);
 
-    $filters =[];
+    $filters = [];
 
     foreach ($terms as $term) {
       $filters [] = array(
@@ -135,6 +146,6 @@ class MoviesController extends ControllerBase
         'id' => $term->tid
       );
     }
-     return $filters;
+    return $filters;
   }
 }
