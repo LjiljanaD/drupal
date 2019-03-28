@@ -37,7 +37,7 @@
 </div>
 
 <div>
-    {% for i in 0..pager.total - 1 %}
+    {% for i in 0..pager.total -1 %}
          <a href="{{ path('<current>') ~ '?filter=' ~ pager.currentFilter ~ '&page=' ~ i }}"> < {{ i }} > </a>
     {% endfor %}
 

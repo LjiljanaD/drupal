@@ -13,8 +13,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\RequestStack;
 use Drupal\Core\Path\AliasManager;
 
-class MoviesController extends ControllerBase
-{
+class MoviesController extends ControllerBase {
 
   protected $entityQuery;
   protected $entityTypeManager;
@@ -25,7 +24,7 @@ class MoviesController extends ControllerBase
    * Constructs a DbLogController object.
    *
    */
-  public function __construct(\Drupal\Core\Entity\Query\QueryFactory $entityQuery,
+  public function __construct($entityQuery,
                               $entityTypeManager,
                               RequestStack $request,
                               ConfigFactory $configFactory,
@@ -41,8 +40,7 @@ class MoviesController extends ControllerBase
   /**
    * {@inheritdoc}
    */
-  public static function create(ContainerInterface $container)
-  {
+  public static function create(ContainerInterface $container)  {
     return new static(
       $container->get('entity.query'),
       $container->get('entity_type.manager'),
@@ -58,13 +56,12 @@ class MoviesController extends ControllerBase
    * @throws \Drupal\Component\Plugin\Exception\PluginNotFoundException
    */
   public function movies()  {
-     $content_per_page = $this->moviesConfig->get('movies.content_per_page');
+
+    $content_per_page = $this->moviesConfig->get('movies.content_per_page');
 
     $filterPage = $this->request->get('filter');
     $current_page = $this->request->get('page');
     $offset = $content_per_page * $current_page;
-
-
 
     $movieIds = $this->entityQuery
       ->get('node')
@@ -72,42 +69,27 @@ class MoviesController extends ControllerBase
       ->range($offset, $content_per_page)
       ->execute();
 
-    if($filterPage) {
-      $movieIds=$this->entityQuery
+
+    $countQuery = $this->entityQuery
+      ->get('node')
+      ->condition('type', 'movies');
+
+    if (!empty($filterPage)) {
+      $countQuery->condition('field_movies_type', $filterPage);
+
+      $movieIds = $this->entityQuery
         ->get('node')
         ->condition('type', 'movies')
         ->condition('field_movies_type', $filterPage)
+        ->range($offset, $content_per_page)
         ->execute();
     }
 
-    $total = $this->entityQuery
-      ->get('node')
-      ->condition('type', 'movies')
-      ->count()
-      ->execute();
+    $total = $countQuery->count()->execute();
 
     $movieslist = $this->entityTypeManager->getStorage('node')->loadMultiple($movieIds);
 
-    $movies = [];
-    foreach ($movieslist as $movie) {
-
-      foreach ($movie->get('field_actors') as $actor) {
-        $actors = $actor->entity->getTitle();
-      }
-
-      foreach ($movie->get('field_movies_type') as $taxonomy) {
-        $movieTypes = $taxonomy->entity->getName();
-      }
-
-      $movies[] = array(
-        'title' => $movie->title->value,
-        'description' => $movie->body->value,
-        'actors' => $actors,
-        'directors' => $movie->field_director->value,
-        'movietype' => !empty($movieTypes) ? $movieTypes : NULL,
-        'poster' => !empty($movie->field_movie_poster->entity) ? $movie->field_movie_poster->entity->getFileUri() : NULL,
-      );
-    }
+    $movies = $this->getMovieData($movieslist);
 
     return array(
       '#title' => 'World of Movies',
@@ -117,7 +99,7 @@ class MoviesController extends ControllerBase
         'current' => $current_page,
         'next' => $current_page + 1,
         'previous' => 0,
-        'total' => $total / $content_per_page,
+        'total' => ceil($total / $content_per_page),
         'first' => 0,
         'last' => 10,
         'currentFilter' => !empty($filterPage) ? $filterPage : NULL,
@@ -130,8 +112,7 @@ class MoviesController extends ControllerBase
   /**
    * @return array
    */
-  private function getTaxonomy()
-  {
+  private function getTaxonomy()  {
 
     $taxonomyId = 'type_of_movie';
 
@@ -147,5 +128,31 @@ class MoviesController extends ControllerBase
       );
     }
     return $filters;
+  }
+
+  private function getMovieData($moviesList)  {
+    $movies = [];
+    foreach ($moviesList as $movie) {
+      $actors = [];
+      $movieTypes = [];
+
+      foreach ($movie->get('field_actors') as $actor) {
+        $actors = $actor->entity->getTitle();
+      }
+
+      foreach ($movie->get('field_movies_type') as $type) {
+        $movieTypes = $type->entity->getName();
+      }
+
+      $movies[] = array(
+        'title' => $movie->title->value,
+        'description' => $movie->body->value,
+        'actors' => $actors,
+        'directors' => $movie->field_director->value,
+        'movietype' => !empty($movieTypes) ? $movieTypes : NULL,
+        'poster' => !empty($movie->field_movie_poster->entity) ? $movie->field_movie_poster->entity->getFileUri() : NULL,
+      );
+    }
+    return $movies;
   }
 }
