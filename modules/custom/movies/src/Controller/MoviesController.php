@@ -61,6 +61,8 @@ class MoviesController extends ControllerBase {
 
     $filterPage = $this->request->get('filter');
     $current_page = $this->request->get('page');
+    $searchFieldEntry = $this->request->get('search_filter');
+
     $offset = $content_per_page * $current_page;
 
     $movieIds = $this->entityQuery
@@ -85,7 +87,25 @@ class MoviesController extends ControllerBase {
         ->execute();
     }
 
-    $total = $countQuery->count()->execute();
+    $searchQuery = $this -> entityQuery
+        ->get('node')
+        ->condition('type', 'movies');
+
+    if (!empty($searchFieldEntry)) {
+        $searchQuery->condition('title',$searchFieldEntry,'CONTAINS');
+
+        $movieIds = $this->entityQuery
+            ->get('node')
+            ->condition('type', 'movies')
+            ->condition('title',$searchFieldEntry,'CONTAINS')
+            ->execute();
+    }
+
+    $totalMovies = $countQuery->count()->execute();
+
+      if(($totalMovies / $content_per_page)<=1) {
+          $total= $totalMovies / $content_per_page;
+      } else { $total = ceil($totalMovies / $content_per_page);}
 
     $movieslist = $this->entityTypeManager->getStorage('node')->loadMultiple($movieIds);
 
@@ -99,11 +119,13 @@ class MoviesController extends ControllerBase {
         'current' => $current_page,
         'next' => $current_page + 1,
         'previous' => 0,
-        'total' => ceil($total / $content_per_page),
+        'total' => $total,
         'first' => 0,
         'last' => 10,
         'currentFilter' => !empty($filterPage) ? $filterPage : NULL,
+        'searchFilter' => $searchFieldEntry,
       ],
+
       '#theme' => 'movies',
     );
   }
@@ -155,4 +177,11 @@ class MoviesController extends ControllerBase {
     }
     return $movies;
   }
+//
+//  private function searchResults() {
+//      if (!empty($searchResults)){
+//          $searchResult = $searchResults ===
+//      }
+//  }
 }
+
