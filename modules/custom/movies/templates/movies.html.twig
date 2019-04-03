@@ -1,7 +1,7 @@
 <h2> {{ title }}</h2>
 
 <div>
-    <form method="post">
+    <form method="post" action=" {{ path('<current>') ~ '?search=' ~ pager.searchFilter  }}">
         <input type="search" name="search_filter">
         <button name="submit" > {{ 'Filter' | t }} </button>
     </form>
@@ -28,21 +28,11 @@
     {% endfor %}
 </div>
 
-{#<div>#}
-{#    {% for movie in movies %}#}
-{#        {% if searchFilter == movie.title %}#}
-{#            {{ movie.title }}#}
-{#        {% endif %}#}
-{#    {% endfor %}#}
-{#</div>#}
-
 <div>
 
-
-            {% for i in 0..pager.total -1 %}
-                <a href="{{ path('<current>') ~ '?filter=' ~ pager.currentFilter ~ '&page=' ~ i ~ '&search=' ~ pager.searchFilter }}"> < {{ i }} > </a>
-            {% endfor %}
-      
+    {% for i in 0..pager.total -1 %}
+            <a href="{{ path('<current>') ~ '?filter=' ~ pager.currentFilter ~ '&page=' ~ i }}"> < {{ i }} > </a>
+    {% endfor %}
 </div>
 
 

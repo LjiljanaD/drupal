@@ -6,8 +6,7 @@ function movies_theme($existing, $type, $theme, $path){
         'movies' => [],
         'pager' => [],
         'filters' => [],
-        // 'searchFilters' => [],
-      ]
+          ]
     ]);
 
 }
