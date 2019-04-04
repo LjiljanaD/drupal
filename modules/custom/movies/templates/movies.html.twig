@@ -1,10 +1,11 @@
 <h2> {{ title }}</h2>
-{#<div>
-    <form method="post">
-        <input type="search" name="filter">
-        <button name="submit"> {{ 'Filter' | t }} </button>
+
+<div>
+    <form method="post" action=" {{ path('<current>') ~ '?search=' ~ pager.searchFilter  }}">
+        <input type="search" name="search_filter">
+        <button name="submit" > {{ 'Filter' | t }} </button>
     </form>
-</div>#}
+</div>
 
 <div><h4> Select the type of movie: </h4>
     <ul>
@@ -25,22 +26,13 @@
         Type of movie:  {{ movie.movietype }} <br>
         <img src=" {{ file_url(movie.poster) }} "> <br>
     {% endfor %}
-
 </div>
 
 <div>
 
-    {% if (form.filter.get('value') == (movie.title)) %}
-        <h3> {{ movie.title }}</h3>
-    {% endif %}
-
-</div>
-
-<div>
-    {% for i in 0..pager.total - 1 %}
-         <a href="{{ path('<current>') ~ '?filter=' ~ pager.currentFilter ~ '&page=' ~ i }}"> < {{ i }} > </a>
+    {% for i in 0..pager.total -1 %}
+            <a href="{{ path('<current>') ~ '?filter=' ~ pager.currentFilter ~ '&page=' ~ i }}"> < {{ i }} > </a>
     {% endfor %}
-
 </div>
 
 
