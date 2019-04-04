@@ -1,7 +1,7 @@
 <h2> {{ title }}</h2>
 
 <div>
-    <form method="post" action=" {{ path('<current>') ~ '?search=' ~ pager.searchFilter  }}">
+    <form method="post" action=" {{ path('<current>') ~ '?filter=' ~ pager.currentFilter  }}">
         <input type="search" name="search_filter">
         <button name="submit" > {{ 'Filter' | t }} </button>
     </form>
