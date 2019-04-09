@@ -7,12 +7,18 @@ global-css:
       assets/css/style.css: {}
 
 
+
 global-js:
   js:
+    assets/js/jquery-1.11.0.min.js: {}
+    assets/js/jquery-migrate-1.2.1.min.js: {}
     assets/js/bootstrap.min.js : {}
     assets/js/superfish.js : {}
     assets/js/jquery.slicknav.min.js : {}
     assets/js/custom.js : {}
+    assets/js/main.js: {}
+    assets/js/slick.min.js: {}
+
   dependencies:
     - core/jquery
     - core/drupal

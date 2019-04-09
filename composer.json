@@ -11,7 +11,9 @@
         "drupal/imagemagick": "~2.0",
         "drupal/devel": "^2.0",
         "drupal/kint": "^2.0",
-        "drupal/config_pages": "^2.2"
+        "drupal/config_pages": "^2.2",
+        "drupal/paragraphs": "^1.8",
+        "drupal/slick_paragraphs": "^2.0"
     },
     "replace": {
         "drupal/core": "^8.6"
