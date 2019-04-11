@@ -129,9 +129,9 @@ class MoviesController extends ControllerBase {
       foreach ($movie->get('field_movies_type') as $type) {
         $movieTypes = $type->entity->getName();
       }
-      foreach ($movie->get('field_exampe_of_paragraph') as $paragraph){
-        $paragraphFields=$paragraph->get('field_image_for_paragraph')->entity->getFileUri();
-      }
+//      foreach ($movie->get('field_exampe_of_paragraph') as $paragraph){
+//        $paragraphFields=$paragraph->get('field_image_for_paragraph')->entity->getFileUri();
+//      }
   $a=1;
       $movies[] = array(
         'title' => $movie->title->value,
