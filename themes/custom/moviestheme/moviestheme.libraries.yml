@@ -1,0 +1,12 @@
+movies-styling:
+  css:
+    theme:
+      assets/css/slick.css: {}
+  js:
+
+    assets/js/slick.js: {}
+    assets/js/main.js: {}
+
+  dependencies:
+    - core/jquery.once
+    - core/drupal
