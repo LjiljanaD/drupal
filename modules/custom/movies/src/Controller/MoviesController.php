@@ -14,10 +14,12 @@ use Symfony\Component\HttpFoundation\RequestStack;
 use Drupal\Core\Path\AliasManager;
 
 class MoviesController extends ControllerBase {
+
   protected $entityQuery;
   protected $entityTypeManager;
   protected $request;
   protected $moviesConfig;
+
   /**
    * Constructs a DbLogController object.
    *
@@ -34,6 +36,7 @@ class MoviesController extends ControllerBase {
     $this->moviesConfig = $configFactory->get('movies.settings');
     $this->aliasManager = $aliasManager;
   }
+
   /**
    * {@inheritdoc}
    */
@@ -46,6 +49,7 @@ class MoviesController extends ControllerBase {
       $container->get('path.alias_manager')
     );
   }
+
   /**
    * @return array
    * @throws \Drupal\Component\Plugin\Exception\InvalidPluginDefinitionException
@@ -81,6 +85,7 @@ class MoviesController extends ControllerBase {
       '#theme' => 'movies',
     );
   }
+
   private function getSortedMoviesIds($searchFieldEntry, $filterPage, $content_per_page, $offset) {
     $results = [];
     if ((!empty($filterPage)) && !empty($searchFieldEntry)) {
@@ -114,10 +119,12 @@ class MoviesController extends ControllerBase {
     }
     return $results;
   }
+
   private function loadMovieList($listIDs) {
     $moviesList = $this->entityTypeManager->getStorage('node')->loadMultiple($listIDs);
     return $this->getMovieData($moviesList);
   }
+
   private function getMovieData($moviesList) {
     $movies = [];
     foreach ($moviesList as $movie) {
@@ -129,10 +136,7 @@ class MoviesController extends ControllerBase {
       foreach ($movie->get('field_movies_type') as $type) {
         $movieTypes = $type->entity->getName();
       }
-//      foreach ($movie->get('field_exampe_of_paragraph') as $paragraph){
-//        $paragraphFields=$paragraph->get('field_image_for_paragraph')->entity->getFileUri();
-//      }
-  $a=1;
+
       $movies[] = array(
         'title' => $movie->title->value,
         'description' => $movie->body->value,
@@ -190,6 +194,7 @@ class MoviesController extends ControllerBase {
     $taxonomyId = 'type_of_movie';
     $terms = $this->entityTypeManager->getStorage('taxonomy_term')->loadTree($taxonomyId);
     $filters = [];
+
     foreach ($terms as $term) {
       $filters [] = array(
         'name' => $term->name,
@@ -197,6 +202,7 @@ class MoviesController extends ControllerBase {
         'id' => $term->tid
       );
     }
+
     return $filters;
   }
 }

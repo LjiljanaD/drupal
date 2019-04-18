@@ -1,5 +1,6 @@
 <?php
-function movies_theme($existing, $type, $theme, $path){
+function movies_theme($existing, $type, $theme, $path)
+{
   return array(
     'movies' => [
       'variables' => [
@@ -10,10 +11,25 @@ function movies_theme($existing, $type, $theme, $path){
 
 }
 
-function movies_preprocess_form(&$vars){
+function movies_preprocess_form(&$vars)
+{
   $vars['ConfigForm'] = \Drupal::formBuilder()->getForm('\Drupal\movies\Form\ConfigForm');
 }
 
+function movies_preprocess_node__movies(&$vars)
+{
+  $paragraph = $vars['content']['field_slider'][0]['#paragraph'];
+  $paragraph_field_slider = $paragraph->get('field_slide')->referencedEntities();
 
+  foreach ($paragraph_field_slider as $slide) {
 
+    $imageSlide = $slide->get('field_slide_image');
 
+    foreach ($imageSlide as $slideImage) {
+
+      $images = $slideImage->entity->uri->value;
+
+      $vars['slideImages'][] = $images;
+    }
+  }
+}
