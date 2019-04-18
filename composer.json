@@ -13,7 +13,8 @@
         "drupal/kint": "^2.0",
         "drupal/config_pages": "^2.2",
         "drupal/paragraphs": "^1.8",
-        "drupal/slick_paragraphs": "^2.0"
+        "drupal/slick_paragraphs": "^2.0",
+        "drupal/twig_tweak": "^2.1"
     },
     "replace": {
         "drupal/core": "^8.6"

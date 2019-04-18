@@ -94,9 +94,11 @@
         {{ content }}
     </div>
 
+{#    {{ breakpoint() }}#}
+
     <div class="multiple-items">
-        <div>your content</div>
-        <div>your content</div>
-        <div>your content</div>
+        {% for image in slideImages %}
+            <div> <img src=" {{ image | image_style('thumbnail')}} "> <br> </div>
+        {% endfor %}
     </div>
 </article>
