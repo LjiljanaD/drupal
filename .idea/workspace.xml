@@ -2,24 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcb7aa82-fa3c-420a-be16-4552eebc8bab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/libraries/blazy/blazy.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/movies/assets/css/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/movies/assets/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/movies/moviestheme.info.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/movies/moviestheme.libraries.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/movies/templates/html.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/movies/templates/node--movies.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/movies/templates/page.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/down/nexus/assets/js/jquery-1.11.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/down/nexus/assets/js/jquery-migrate-1.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/down/nexus/assets/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/down/nexus/assets/js/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/custom/moviestheme/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/custom/moviestheme/assets/js/bootstap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/custom/moviestheme/assets/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/custom/moviestheme/templates/block--moviestheme-main-menu.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/custom/moviestheme/templates/block--system-branding-block.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/custom/moviestheme/templates/menu--footer.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/custom/moviestheme/templates/menu--main.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/custom/movies/src/Controller/MoviesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/movies/src/Controller/MoviesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/custom/movies/templates/movies.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/movies/templates/movies.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/down/nexus/nexus.libraries.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/down/nexus/nexus.libraries.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/themes/classy/templates/navigation/menu.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/core/themes/classy/templates/navigation/menu.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/moviestheme/moviestheme.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/moviestheme/moviestheme.info.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/moviestheme/moviestheme.libraries.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/moviestheme/moviestheme.libraries.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/moviestheme/templates/page.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/moviestheme/templates/page.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,37 +44,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/custom/movies/moviestheme.info.yml">
+        <entry file="file://$PROJECT_DIR$/themes/custom/moviestheme/templates/block--system-branding-block.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            <state relative-caret-position="570">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/custom/movies/assets/css/slick.css">
+        <entry file="file://$PROJECT_DIR$/themes/custom/moviestheme/templates/page.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="685">
+              <caret line="62" column="15" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/custom/movies/assets/js/main.js">
+        <entry file="file://$PROJECT_DIR$/themes/custom/moviestheme/templates/menu--footer.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/custom/movies/templates/node--movies.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
-              <caret line="90" column="17" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
+            <state relative-caret-position="730">
+              <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -86,11 +73,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/custom/movies/src/Controller/MoviesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="134" column="7" selection-start-line="134" selection-start-column="7" selection-end-line="134" selection-end-column="7" />
+            <state relative-caret-position="676">
+              <caret line="84" column="25" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
               <folding>
-                <element signature="e#42#79#0#PHP" expanded="true" />
+                <element signature="e#44#81#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/custom/movies/movies.module">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -98,18 +94,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/custom/movies/templates/movies.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+            <state relative-caret-position="495">
+              <caret line="33" column="87" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="87" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/custom/movies/moviestheme.libraries.yml">
+        <entry file="file://$PROJECT_DIR$/core/themes/classy/templates/block/block--system-menu-block.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
+            <state relative-caret-position="-50" />
           </provider>
         </entry>
       </file>
@@ -136,6 +130,9 @@
       <find>content</find>
       <find>options.rows</find>
       <find>iFF</find>
+      <find>$paragraph_field_slider</find>
+      <find>block-</find>
+      <find>bootstrap</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -147,18 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/core/themes/bartik/templates/page.html.twig" />
-        <option value="$PROJECT_DIR$/modules/custom/drupalpr_controller/drupalpr_controller.info.yml" />
-        <option value="$PROJECT_DIR$/modules/custom/drupalpr_controller/drupalpr_controller.module" />
-        <option value="$PROJECT_DIR$/modules/custom/drupalpr_controller/templates/article-list.html.twig" />
-        <option value="$PROJECT_DIR$/modules/custom/drupalpr_controller/src/Controller/ArticleController.php" />
-        <option value="$PROJECT_DIR$/modules/custom/drupalpr_controller/drupalpr_controller.routing.yml" />
-        <option value="$PROJECT_DIR$/modules/custom/hello_world/hello_world.info.yml" />
-        <option value="$PROJECT_DIR$/modules/custom/hello_world/templates/my-test-theme-2.html.twig" />
-        <option value="$PROJECT_DIR$/modules/custom/hello_world/templates/hello-world.html.twig" />
-        <option value="$PROJECT_DIR$/modules/custom/hello_world/src/Controller/HelloWorldController.php" />
-        <option value="$PROJECT_DIR$/modules/custom/hello_world/hello_world.module" />
-        <option value="$PROJECT_DIR$/modules/custom/hello_world/src/Controller/ProductController.php" />
         <option value="$PROJECT_DIR$/modules/custom/hello_world/hello_world.routing.yml" />
         <option value="$PROJECT_DIR$/modules/custom/product_form/src/Controller/ProductController.php" />
         <option value="$PROJECT_DIR$/modules/custom/movies/movies.info.yml" />
@@ -174,7 +159,6 @@
         <option value="$PROJECT_DIR$/modules/custom/movies/src/Form/ConfigForm.php" />
         <option value="$PROJECT_DIR$/modules/custom/movies/templates/form.html.twig" />
         <option value="$PROJECT_DIR$/modules/custom/movies/templates/taxonomy.html.twig" />
-        <option value="$PROJECT_DIR$/modules/custom/movies/movies.module" />
         <option value="$PROJECT_DIR$/modules/custom/movies/movies.routing.yml" />
         <option value="$PROJECT_DIR$/modules/custom/movies/templates/movies.html.twig" />
         <option value="$PROJECT_DIR$/themes/down/nexus/templates/layout/page--node--9.html.twig" />
@@ -197,6 +181,19 @@
         <option value="$PROJECT_DIR$/themes/custom/movies/moviestheme.libraries.yml" />
         <option value="$PROJECT_DIR$/themes/custom/movies/templates/node--movies.html.twig" />
         <option value="$PROJECT_DIR$/themes/custom/movies/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/themes/custom/moviestheme/templates/node--movies.html.twig" />
+        <option value="$PROJECT_DIR$/themes/custom/moviestheme/templates/block--moviestheme-main-menu.html.twig" />
+        <option value="$PROJECT_DIR$/themes/custom/moviestheme/moviestheme.info.yml" />
+        <option value="$PROJECT_DIR$/themes/custom/moviestheme/assets/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/themes/custom/moviestheme/assets/js/popper.min.js" />
+        <option value="$PROJECT_DIR$/themes/custom/moviestheme/assets/js/bootstap.min.js" />
+        <option value="$PROJECT_DIR$/themes/custom/moviestheme/moviestheme.libraries.yml" />
+        <option value="$PROJECT_DIR$/themes/custom/moviestheme/templates/menu--main.html.twig" />
+        <option value="$PROJECT_DIR$/core/themes/classy/templates/navigation/menu.html.twig" />
+        <option value="$PROJECT_DIR$/themes/custom/moviestheme/templates/block--system-branding-block.html.twig" />
+        <option value="$PROJECT_DIR$/themes/custom/moviestheme/templates/page.html.twig" />
+        <option value="$PROJECT_DIR$/themes/custom/moviestheme/templates/menu--footer.html.twig" />
+        <option value="$PROJECT_DIR$/modules/custom/movies/movies.module" />
         <option value="$PROJECT_DIR$/modules/custom/movies/src/Controller/MoviesController.php" />
       </list>
     </option>
@@ -328,9 +325,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1883" />
-    <option name="width" value="1850" />
-    <option name="height" value="1040" />
+    <option name="x" value="2000" />
+    <option name="width" value="1840" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -398,6 +395,36 @@
               <item name="drupal-8.6.10" type="b2602c69:ProjectViewProjectNode" />
               <item name="drupal-8.6.10" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drupal-8.6.10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drupal-8.6.10" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drupal-8.6.10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drupal-8.6.10" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drupal-8.6.10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drupal-8.6.10" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="optional" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drupal-8.6.10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drupal-8.6.10" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="custom" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -405,54 +432,15 @@
               <item name="drupal-8.6.10" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="custom" type="462c0819:PsiDirectoryNode" />
-              <item name="movies" type="462c0819:PsiDirectoryNode" />
+              <item name="moviestheme" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="drupal-8.6.10" type="b2602c69:ProjectViewProjectNode" />
               <item name="drupal-8.6.10" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="custom" type="462c0819:PsiDirectoryNode" />
-              <item name="movies" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="drupal-8.6.10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drupal-8.6.10" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
-              <item name="movies" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="drupal-8.6.10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drupal-8.6.10" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
-              <item name="movies" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="drupal-8.6.10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drupal-8.6.10" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
-              <item name="movies" type="462c0819:PsiDirectoryNode" />
+              <item name="moviestheme" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="drupal-8.6.10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drupal-8.6.10" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="down" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="drupal-8.6.10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drupal-8.6.10" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="down" type="462c0819:PsiDirectoryNode" />
-              <item name="nexus" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -465,7 +453,7 @@
     <property name="Constants" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/themes/custom/movies/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/themes/custom/moviestheme/templates" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -481,11 +469,11 @@
       <recent name="$PROJECT_DIR$/modules/custom/product_form/src/Controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/custom/moviestheme/templates" />
+      <recent name="$PROJECT_DIR$/themes/custom/moviestheme" />
       <recent name="$PROJECT_DIR$/themes/custom/movies/templates" />
       <recent name="$PROJECT_DIR$/themes/custom/movies/assets/js" />
       <recent name="$PROJECT_DIR$/themes/custom/movies/assets/css" />
-      <recent name="$PROJECT_DIR$/themes/down/nexus/assets/js" />
-      <recent name="$PROJECT_DIR$/modules/custom/hello_world/templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -540,11 +528,18 @@
       <workItem from="1554450557812" duration="5515000" />
       <workItem from="1554708417559" duration="19127000" />
       <workItem from="1554793653622" duration="17910000" />
+      <workItem from="1555053360202" duration="19636000" />
+      <workItem from="1555313627524" duration="22110000" />
+      <workItem from="1555399494841" duration="16524000" />
+      <workItem from="1555485576817" duration="11305000" />
+      <workItem from="1555575310304" duration="10800000" />
+      <workItem from="1555659800096" duration="7480000" />
+      <workItem from="1555917479524" duration="14070000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213829000" />
+    <option name="totallyTimeSpent" value="323683000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -559,12 +554,12 @@
     <frame x="1920" y="-1" width="1920" height="1054" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2534685" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2764141" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4967983" weight="0.23548387" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32903227" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49519745" weight="0.17419355" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.33084312" visible="true" weight="0.11935484" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
@@ -572,34 +567,20 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49893278" weight="0.32903227" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5032017" side_tool="true" weight="0.23548387" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.6691569" side_tool="true" weight="0.5430108" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="12" weight="0.32903227" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Structure" order="4" visible="true" weight="0.016008537" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32977587" />
+      <window_info anchor="right" id="Structure" order="4" sideWeight="0.49462366" visible="true" weight="0.09338314" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/modules/custom/movies/src/Controller/MoviesController.php</url>
-          <line>117</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
-      <configuration name="index.php">
-        <watch expression="$current_page=$this-&gt;request-&gt;get('page')" language="PHP" />
-        <watch expression="$this-&gt;request" language="PHP" />
-        <watch expression="$movie-&gt;field_movies_type-&gt;entity-&gt;title" language="PHP" />
-      </configuration>
       <configuration name="JavascriptDebugType">
         <watch expression="Drupal::entityQuery('node')     -&gt; condition('status', 1)-&gt; execute();" language="JavaScript" />
         <watch expression="Drupal::entityQuery('node')     -&gt; condition('type', 'movies')     -&gt; execute();" language="JavaScript" />
@@ -609,84 +590,314 @@
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>$movie-&gt;field_movies_type-&gt;entity-&gt;title</expression-string>
+        <expression-string>$slideImage-&gt;get('field_slide_image')</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>$movie-&gt;field_movies_type-&gt;entity-&gt;getTitle()</expression-string>
+        <expression-string>$slideImage[$slide]-&gt;get('field_slide_image')</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>$movie-&gt;field_movies_type-&gt;entity-&gt;getValue()</expression-string>
+        <expression-string>$slideImage</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>$movie-&gt;field_movies_type-&gt;entity-&gt;value</expression-string>
+        <expression-string>$slideImage[0]</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>$movie-&gt;field_movies_type-&gt;entity</expression-string>
+        <expression-string>$slideImage[$slide]</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>$movie-&gt;field_movies_type</expression-string>
+        <expression-string>$paragraph_field_slider</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>$movie-&gt;field_movies_type[0]-&gt;entity-&gt;getName()</expression-string>
+        <expression-string>$paragraph_field_slider-&gt;values</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>$movie-&gt;field_movies_type[0]-&gt;entity</expression-string>
+        <expression-string>$slideImage-&gt;values</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>$movie-&gt;field_movies_type[0]</expression-string>
-        <language-id>PHP</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>$movie-&gt;field_movie_type</expression-string>
+        <expression-string>$slide</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/lib/Drupal/Core/Render/Renderer.php">
+    <entry file="file://$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Sandbox.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8625">
-          <caret line="583" selection-start-line="583" selection-end-line="583" />
+        <state relative-caret-position="163">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/movies/movies.info.yml">
+    <entry file="file://$PROJECT_DIR$/core/lib/Drupal/Core/Template/TwigExtension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="435" selection-start-line="435" selection-end-line="435" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/contrib/file_entity/src/Entity/FileEntity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="107" column="18" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/lib/Drupal/Core/Extension/ModuleHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1875">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/lib/Drupal/Core/Extension/Extension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2175">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/lib/Drupal/Core/Render/Renderer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2850">
+          <caret line="198" selection-start-line="198" selection-end-line="198" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/lib/Drupal/Core/Theme/ThemeManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="297" selection-start-line="297" selection-end-line="297" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ajgl/breakpoint-twig-extension/src/BreakpointExtension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/image/src/Entity/ImageStyle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="172" column="18" selection-start-line="172" selection-start-column="18" selection-end-line="172" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2019-04/jez.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2019-04/jez_0.webp">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/down/nexus/templates/menu-local-tasks.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/moviestheme/logo.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/core/themes/bartik/templates/page.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1130" />
+        <state relative-caret-position="-635" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/themes/bartik/bartik.libraries.yml">
+    <entry file="file://$PROJECT_DIR$/core/themes/seven/templates/page.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-515" />
+        <state relative-caret-position="-135" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/movies/movies.module">
+    <entry file="file://$PROJECT_DIR$/core/themes/seven/templates/menu-local-tasks.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/system/templates/menu.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="26" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/themes/bartik/css/components/featured-bottom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/lib/Drupal/Core/Block/BlockBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/moviestheme/assets/css/slick.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/themes/bartik/css/components/block.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/includes/bootstrap.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="823">
+          <caret line="597" selection-start-line="597" selection-end-line="597" />
+          <folding>
+            <element signature="e#86#121#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/tests/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1414">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/contrib/bootstrap/config/install/bootstrap.settings.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/contrib/bootstrap/templates/menu/menu.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/moviestheme/assets/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <folding>
+            <element signature="e#25768#26002#2" expanded="true" />
+            <element signature="e#26806#26959#1" expanded="true" />
+            <element signature="e#26999#27233#1" expanded="true" />
+            <element signature="e#30239#30515#2" expanded="true" />
+            <element signature="e#31347#31500#1" expanded="true" />
+            <element signature="e#31540#31816#1" expanded="true" />
+            <element signature="e#61072#61259#2" expanded="true" />
+            <element signature="e#61488#61624#2" expanded="true" />
+            <element signature="e#62027#62160#2" expanded="true" />
+            <element signature="e#63642#63795#1" expanded="true" />
+            <element signature="e#75788#76018#2" expanded="true" />
+            <element signature="e#76885#77121#2" expanded="true" />
+            <element signature="e#106714#106891#2" expanded="true" />
+            <element signature="e#106937#107114#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/moviestheme/assets/js/popper.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/moviestheme/assets/js/bootstap.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/moviestheme/templates/html.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/moviestheme/templates/block--moviestheme-main-menu.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/moviestheme/templates/menu--main.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/system/src/Plugin/Block/SystemPoweredByBlock.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/contrib/twig_tweak/src/TwigExtension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-284">
+          <caret line="129" column="32" selection-start-line="129" selection-start-column="32" selection-end-line="129" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/profiles/demo_umami/themes/umami/templates/components/navigation/block--system-menu-block--footer.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/moviestheme/moviestheme.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/moviestheme/moviestheme.libraries.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/migrate/src/Plugin/migrate/process/Route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/moviestheme/templates/node--movies.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="100" column="62" selection-start-line="100" selection-start-column="62" selection-end-line="100" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/moviestheme/templates/block--system-branding-block.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/movies/templates/form.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/custom/movies/movies.routing.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -695,287 +906,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/down/nexus/templates/layout/page--node--9.html.twig" />
-    <entry file="file://$PROJECT_DIR$/modules/contrib/slick/templates/slick-slide.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-620" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/contrib/slick/src/Plugin/Field/FieldFormatter/SlickEntityFormatterBase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/contrib/slick/src/SlickManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-211">
-          <caret line="151" column="59" selection-start-line="151" selection-start-column="59" selection-end-line="151" selection-end-column="59" />
-          <folding>
-            <element signature="e#32#72#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/profiles/demo_umami/config/install/field.storage.media.field_media_image.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/contrib/slick/js/slick.load.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
+    <entry file="file://$PROJECT_DIR$/modules/custom/movies/movies.info.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/blazy/blazy.min.js">
+    <entry file="file://$PROJECT_DIR$/themes/custom/moviestheme/templates/page.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="685">
+          <caret line="62" column="15" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/contrib/blazy/js/blazy.admin.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/contrib/blazy/src/BlazyMedia.php">
+    <entry file="file://$PROJECT_DIR$/core/themes/classy/templates/navigation/menu.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-803">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        <state relative-caret-position="765">
+          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/assets/vendor/jquery/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/down/nexus/templates/page-title.html.twig">
+    <entry file="file://$PROJECT_DIR$/modules/contrib/twig_tweak/tests/twig_tweak_test/config/install/block.block.classy_powered_by_drupal.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/down/nexus/assets/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/down/nexus/templates/layout/page.html.twig">
+    <entry file="file://$PROJECT_DIR$/themes/contrib/bootstrap/config/optional/block.block.bootstrap_powered.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="39" column="35" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="35" />
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/down/nexus/templates/node.html.twig">
+    <entry file="file://$PROJECT_DIR$/core/themes/classy/templates/block/block--system-menu-block.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="802">
-          <caret line="95" column="10" selection-end-line="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/misc/drupal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/down/nexus/assets/js/jquery-migrate-1.2.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="7085" selection-start-line="1" selection-start-column="7085" selection-end-line="1" selection-end-column="7085" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/down/nexus/assets/js/jquery-1.11.0.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="31946" selection-start-line="3" selection-start-column="31946" selection-end-line="3" selection-end-column="31946" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/down/nexus/assets/js/jquery.flexslider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/down/nexus/theme-settings.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/custom/movies/assets/js/jquery-1.11.0.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/custom/movies/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/custom/movies/assets/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/down/nexus/assets/js/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/sync/block.block.nexus_main_navigation.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/down/nexus/nexus.info.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/files/js/js_wJvdKe8-O43S-xPIlnwndDvktUUxk_HkrJ18jKr9xnw.js.gz">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/files/js/js_wJvdKe8-O43S-xPIlnwndDvktUUxk_HkrJ18jKr9xnw.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="319" column="202" selection-start-line="319" selection-start-column="202" selection-end-line="319" selection-end-column="202" />
-          <folding>
-            <element signature="e#76#82#1" expanded="true" />
-            <element signature="e#231#237#1" expanded="true" />
-            <element signature="e#22#28#1" expanded="true" />
-            <element signature="e#52#58#1" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#57#64#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/slick/slick/slick.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/down/nexus/assets/js/slide.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/down/nexus/assets/js/slick.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/custom/movies/templates/page.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="55" column="22" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/system/templates/html.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" selection-start-line="40" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/custom/movies/templates/html.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/down/nexus/nexus.theme">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="85" column="32" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/custom/movies/moviestheme.info.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/custom/movies/assets/js/slide.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/custom/movies/assets/js/slick.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="50" selection-start-column="50" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/down/nexus/nexus.libraries.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/custom/movies/assets/css/slick.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/custom/movies/assets/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/custom/movies/moviestheme.libraries.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/custom/movies/templates/node--movies.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="90" column="17" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
-        </state>
+        <state relative-caret-position="-50" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/custom/movies/templates/movies.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+        <state relative-caret-position="495">
+          <caret line="33" column="87" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/movies/movies.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/moviestheme/templates/menu--footer.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/custom/movies/src/Controller/MoviesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="134" column="7" selection-start-line="134" selection-start-column="7" selection-end-line="134" selection-end-column="7" />
+        <state relative-caret-position="676">
+          <caret line="84" column="25" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
           <folding>
-            <element signature="e#42#79#0#PHP" expanded="true" />
+            <element signature="e#44#81#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

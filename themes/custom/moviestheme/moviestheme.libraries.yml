@@ -2,10 +2,13 @@ movies-styling:
   css:
     theme:
       assets/css/slick.css: {}
+      assets/css/bootstrap.min.css: {}
   js:
 
     assets/js/slick.js: {}
     assets/js/main.js: {}
+    assets/js/popper.min.js: {}
+    assets/js/bootstap.min.js: {}
 
   dependencies:
     - core/jquery.once
