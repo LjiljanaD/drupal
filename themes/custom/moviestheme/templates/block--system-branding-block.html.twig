@@ -1,0 +1,44 @@
+{#
+/**
+ * @file
+ * Default theme implementation for a branding block.
+ *
+ * Each branding element variable (logo, name, slogan) is only available if
+ * enabled in the block configuration.
+ *
+ * Available variables:
+ * - site_logo: Logo for site as defined in Appearance or theme settings.
+ * - site_name: Name for site as defined in Site information settings.
+ * - site_slogan: Slogan for site as defined in Site information settings.
+ *
+ * @ingroup themeable
+ */
+#}
+{% block content %}
+    {% if site_logo %}
+        <nav class="navbar navbar-expand-lg">
+            <div class="navbar-header" class="container">
+                <div class="container">
+                    <a class="navbar-brand" href="{{ path('<front>') }}" title="{{ site_name }}" rel="home">
+                        <img src="{{ site_logo }}" alt="{{ site_name }}"/>
+                    </a>
+                    <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbar"
+                            aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Menu</span>
+                    </button>
+                </div>
+                <div class="navbar-header" class="container">
+                    <ul class="navbar-nav">
+                        <li class="nav-item" class="row">
+                            <a class="nav-link" href="{{ '/movies' }}"> Movies</a></li>
+                        <li class="nav-item" class="row">
+                            <a class="nav-link" href="{{ path('movies') }}"> Movies list</a></li>
+                        <li class="nav-item" class="row">
+                            <a class="nav-link" href="{{ '/admin/content' }}">Content</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    {% endif %}
+{% endblock %}

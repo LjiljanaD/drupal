@@ -9,7 +9,8 @@ libraries:
 
 
 regions:
-  header: Header
-  content: Content
+  navigation: 'Navigation'
+  header: 'Header'
+  content: 'Content'
   sidebar_first: 'Sidebar first'
-  footer: Footer
+  footer: 'Footer'

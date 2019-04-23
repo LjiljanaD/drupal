@@ -39,11 +39,18 @@
  * @see html.html.twig
  */
 #}
-  <header class="content-header clearfix">
+  {#<header class="content-header clearfix">
     <div class="layout-container">
       {{ page.header }}
     </div>
   </header>
+#}
+
+{% if page.header %}
+  <nav class="navbar">
+    <div class="container-fluid">{{ page.header }}</div>
+  </nav>
+{% endif %}
 
   <div class="layout-container">
     {{ page.pre_content }}
