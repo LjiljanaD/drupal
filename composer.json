@@ -15,7 +15,8 @@
         "drupal/paragraphs": "^1.8",
         "drupal/slick_paragraphs": "^2.0",
         "drupal/twig_tweak": "^2.1",
-        "drupal/bootstrap": "^3.17"
+        "drupal/bootstrap": "^3.17",
+        "drupal/social_media_links": "^2.6"
     },
     "replace": {
         "drupal/core": "^8.6"
