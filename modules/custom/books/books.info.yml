@@ -1,0 +1,4 @@
+name: Books module
+description: Module for books
+type: module
+core: 8.x

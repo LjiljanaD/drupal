@@ -1,0 +1,3 @@
+services:
+  books.custom_services:
+    class: Drupal\books\Services\CustomService
