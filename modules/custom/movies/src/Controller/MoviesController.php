@@ -28,8 +28,7 @@ class MoviesController extends ControllerBase {
                               $entityTypeManager,
                               RequestStack $request,
                               ConfigFactory $configFactory,
-                              AliasManager $aliasManager)
-  {
+                              AliasManager $aliasManager)  {
     $this->entityQuery = $entityQuery;
     $this->entityTypeManager = $entityTypeManager;
     $this->request = $request->getCurrentRequest();
